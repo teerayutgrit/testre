@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: 'Open sans', sans-serif;
+}
+
+body {
+  background: -webkit-linear-gradient(40deg, #f3c680, #a1e3e2);
+  background: linear-gradient(50deg, #f3c680, #a1e3e2);
+}
+
+/*--------------------
+cardform 
+--------------------*/
+.cardform {
+  margin: 100px auto 30px;
+  position: relative;
+  width: 400px;
+  background: white;
+  border-radius: 15px;
+  padding: 40px 20px 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+/*--------------------
+Credit Card
+--------------------*/
+.card-box {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  width: 350px;
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+
+}
+.card-box .back {
+  width: 350px;
+  height: 50px;
+  border-radius: 15px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: -webkit-linear-gradient(315deg, #bd6772, #53223f);
+  background: linear-gradient(135deg, #bd6772, #53223f);
+  position: absolute;
+  color: #fff;
+  font-family: Inconsolata;
+  top: 0;
+  left: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.card-box .texthd{
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-top: -40px;
+    margin-left: rem;
+    
+}
