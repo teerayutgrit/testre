@@ -63,4 +63,4 @@ jobs:
           app-name: 'royaltestapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_50360FB0444C447B865BE99681C9FA65 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F142AF91C4B440148E5F5A428276562F }}
